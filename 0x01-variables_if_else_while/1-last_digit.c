@@ -24,7 +24,7 @@ if (n > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, d);
 }
-if (n != 0)
+if (n == 0)
 {
 printf("Last digit of %d is %d and is 0\n", n, d);
 }
