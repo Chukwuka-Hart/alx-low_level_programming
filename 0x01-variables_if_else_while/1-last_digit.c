@@ -18,7 +18,7 @@ int d;
 srand(time(0));
 
 n = rand() - RAND_MAX / 2;
-d = n % d;
+d = n % 10;
 
 if (n > 5)
 {
