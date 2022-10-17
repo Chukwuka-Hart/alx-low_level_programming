@@ -17,8 +17,10 @@ while (d <= 9)
 putchar(d + '0');
 d = d + 1;
 if (d <= 9)
+{
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
