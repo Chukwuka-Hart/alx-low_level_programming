@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main
+ * main - entry gate
  *
  * code
  *
