@@ -4,10 +4,10 @@
 /**
  * _putchar - function will write d to standard output
  *
- * Return: 1 (success), otherwise -1
+ * Return: 1 (success)
  */
 
 void _putchar(char d)
 {
-(write(1, &d, 1));
+write(1, &d, 1);
 }

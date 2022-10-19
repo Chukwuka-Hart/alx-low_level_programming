@@ -10,6 +10,18 @@
  */
 
 void _putchar(char d);
-void print_alphabet(void);
+#include "main.h"
+
+#include <unistd.h>
+
+
+
+/**
+
+ * _putchar - the fuction will write c to standard output
+
+ *
+
+ * Retur
 
 #endif
