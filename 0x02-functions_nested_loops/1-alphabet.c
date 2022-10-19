@@ -16,4 +16,6 @@ _putchar(lowercase);
 lowercase++;
 }
 _putchar('\n');
+
+ return (0);
 }
