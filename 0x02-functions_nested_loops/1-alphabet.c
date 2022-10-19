@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
 char lowercase = 'a';
 
@@ -16,6 +16,4 @@ _putchar(lowercase);
 lowercase++;
 }
 _putchar('\n');
-
- return (0);
 }
