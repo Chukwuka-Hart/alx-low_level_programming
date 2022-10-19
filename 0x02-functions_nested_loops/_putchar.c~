@@ -1,0 +1,13 @@
+#include "main.h"
+#include <unistd.h>
+
+/**
+ * _putchar - function will write d to standard output
+ *
+ * Return: 1 (success), otherwise -1
+ */
+
+int _putchar(char d)
+{
+return (write(1, &d, 1));
+}

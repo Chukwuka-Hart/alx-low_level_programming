@@ -9,10 +9,7 @@
  *
  */
 
- void _putchar(char d)
- {
-   write(1, &d, 1);
- }
+void _putchar(char d);
 
 
 #endif
