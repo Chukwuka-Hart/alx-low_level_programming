@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * add - sdd two ints
+ *
+ * Return: sum
+ */
+
+int add(int c, int g)
+{
+int sum = c + g;
+
+return (sum);
+}
