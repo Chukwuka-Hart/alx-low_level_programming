@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * prints_times_table - Entry gate
+ * print_times_table - Entry gate
  *
  * @n: input value
  */
