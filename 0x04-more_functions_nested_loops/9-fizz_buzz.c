@@ -11,7 +11,7 @@ int main(void)
 {
 	int d = 1;
 
-	while ( d <= 100)
+	while (d <= 100)
 	{
 		if (d % 3 == 0 && d % 5 == 0)
 		{
@@ -31,7 +31,7 @@ int main(void)
 		}
 		d++;
 	}
-	printf("Buzz\n");
+	printf("\n");
 
 	return (0);
 }
