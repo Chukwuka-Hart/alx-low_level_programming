@@ -8,12 +8,12 @@
 
 void print_triangle(int size)
 {
-	int y = 0, z;
+	int y = 1, z;
 
 	while (y <= size && size > 0)
 	{
 		z = 0;
-		while (z < size - 1)
+		while (z < size - y)
 		{
 			_putchar(' ');
 			z++;
