@@ -9,27 +9,27 @@
 
 int main(void)
 {
-	int d = 1;
+	int i = 1;
 
-	while (d <= 100)
+	while (i <= 100)
 	{
-		if (d % 3 == 0 && d % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (d % 3 == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
-		else if (d % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
 		else
 		{
-			printf("%d ", d);
+			printf("%d ", i);
 		}
-		d++;
+		i++;
 	}
 	printf("\n");
 
