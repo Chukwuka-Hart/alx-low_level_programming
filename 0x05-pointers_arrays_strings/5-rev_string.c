@@ -11,8 +11,9 @@ void rev_string(char *s)
 	int length = _strlen(s);
 	int mid = length / 2;
 	char d;
+	int i;
 
-	for (int i = 0; i < mid; i++)
+	for (i = 0; i < mid; i++)
 	{
 		d = s[i];
 		s[i] = s[length - i - 1];
