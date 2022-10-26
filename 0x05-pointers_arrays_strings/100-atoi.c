@@ -22,6 +22,7 @@ int _atoi(char *s)
 		}
 		if (s[d] > 47 && s[d] < 58)
 		{
+			while (s[d] > 47 && s[d] < 58)
 			sum = sum * 10 - (s[d++] - 48);
 			break;
 		}
