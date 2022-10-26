@@ -26,5 +26,5 @@ int _atoi(char *s)
 		}
 
 	}
-	return (sum *= sign % 2 == 0 ? -1: 1);
+	return (sum *= sign % 2 == 0 ? -1 : 1);
 }
