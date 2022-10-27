@@ -18,4 +18,6 @@ int _strcmp(char *s1, char *s2)
 		if (s1[d] != s2[d])
 		return (s1[d] - s2[d]);
 	}
+
+	return (0);
 }
