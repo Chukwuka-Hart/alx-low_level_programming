@@ -16,15 +16,13 @@ char *cap_string(char *d)
 	for (c = 0; d[c] != '\0'; c++)
 	{
 		if (d[c] >= 'a' && d[c] <= 'z')
-		{
 			d[c] = d[c] - 'a' - 'A';
-		}
+	
 	}
 	for (e = 0; seperators[e] != '\0'; e++)
-	{
+	
 		if (d[c] == seperators[e] && d[c] >= 'a' && d[c] <= 'z')
-		d[c] = d[c] - 'a' - 'A';
-	}
+			d[c] = d[c] - 'a' - 'A';
 
 	return (d);
 }
