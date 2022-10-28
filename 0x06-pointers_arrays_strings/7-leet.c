@@ -3,7 +3,7 @@
 /**
  * leet - function that encodes a string
  *
- * @d: variable
+ * @c: variable
  *
  * Return: 0
  */
@@ -22,7 +22,7 @@ char *leet(char *c)
 		{
 			if (c[f] == d[g])
 			{
-				c[f] == e[g];
+				c[f] = e[g];
 			}
 		}
 	}
