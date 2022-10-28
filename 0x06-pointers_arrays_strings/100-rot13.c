@@ -39,11 +39,12 @@ char *rot13(char *c)
 
 	for (d = 0; c[d] != '\0'; d++)
 	{
-		for (e = 0; c[d] != '\0'; e++)
+		for (e = 0; e < []; e++)
 		{
 			if (c[d] == letters[e])
 			{
 				c[d] = rot13key[e];
+				break;
 			}
 		}
 	}
