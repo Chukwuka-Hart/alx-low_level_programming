@@ -10,7 +10,7 @@
 
 char *rot13(char *c)
 {
-	char letters[] = {'A', 'B', 'C', 'D', 'E',
+	char letters[52] = {'A', 'B', 'C', 'D', 'E',
 		'F', 'G', 'H', 'I', 'J',
 		'K', 'L', 'M', 'N', 'O',
 		'P', 'Q', 'R', 'S', 'T',
@@ -22,7 +22,7 @@ char *rot13(char *c)
 		't', 'u', 'v', 'w', 'x',
 		'y', 'z'};
 
-	char rot13key[] = {'N', 'O', 'P', 'Q', 'R',
+	char rot13key[52] = {'N', 'O', 'P', 'Q', 'R',
 		'S', 'T', 'U', 'V', 'W',
 		'X', 'Y', 'Z', 'A', 'B',
 		'C', 'D', 'E', 'F', 'G',
@@ -39,7 +39,7 @@ char *rot13(char *c)
 
 	for (d = 0; c[d] != '\0'; d++)
 	{
-		for (e = 0; e < []; e++)
+		for (e = 0; e < 52; e++)
 		{
 			if (c[d] == letters[e])
 			{
