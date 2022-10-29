@@ -15,7 +15,7 @@ char *cap_string(char *d)
 
 	for (c = 0; d[c] != '\0'; c++)
 	{
-		if (c == 0 && d[c] >= 'a' && d[c] <= 'z')
+		if (d[c] >= 'a' && d[c] <= 'z')
 			d[c] = d[c] - 'a' - 'A';
 
 	}
