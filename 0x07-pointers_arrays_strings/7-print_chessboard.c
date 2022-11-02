@@ -5,7 +5,7 @@
  *
  * @a: array
  *
- * Return: 0
+ * Return: void
  */
 
 void print_chessboard(char (*a)[8])
