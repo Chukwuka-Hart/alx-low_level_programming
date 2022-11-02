@@ -16,13 +16,13 @@ void print_diagsums(int *a, int size)
 	for (x = 0; x < size; x++)
 	{
 		z = (x * size) + x;
-		c += *(a + p);
+		c += *(a + z);
 	}
 
 	for (y = 0; y < size; y++)
 	{
 		z = (y * size) + (size - 1 - y);
-		b += *(a + p);
+		b += *(a + z);
 	}
 	printf("%d, %d\n", c, b);
 }
