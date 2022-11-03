@@ -13,7 +13,7 @@ int _findrt(int x, int y)
 {
 	if ((x * x) == y)
 		return (x);
-	if (y == x / 2)
+	if (x == y / 2)
 		return (-1);
 	return (_findrt(y, x + 1));
 }
@@ -37,5 +37,5 @@ int _sqrt_recursion(int n)
 	if (n == 1)
 		return (1);
 
-	return (_findrt(n, x));
+	return (_findrt(n, y));
 }
