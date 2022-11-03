@@ -15,12 +15,12 @@ int div_check(int n, int division)
 	if (division == n / 2)
 		return (1);
 
-	return (div_check(n, division++));
+	return (div_check(n, division + 1));
 }
 
 
 /**
- * _is_prime_number - detects prime number or not
+ * is_prime_number - detects prime number or not
  *
  * @n: input int
  *
