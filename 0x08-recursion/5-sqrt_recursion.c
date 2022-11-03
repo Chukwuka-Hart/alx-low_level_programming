@@ -30,7 +30,7 @@ int _findrt(int x, int y)
 
 int _sqrt_recursion(int n)
 {
-	int y = 0;
+	int x = 0;
 
 	if (n < 0)
 		return (-1);
@@ -38,5 +38,5 @@ int _sqrt_recursion(int n)
 	if (n == 1)
 		return (1);
 
-	return (_findrt(n, y));
+	return (_findrt(n, x));
 }
