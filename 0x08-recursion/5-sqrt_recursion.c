@@ -9,7 +9,7 @@
  * Return: if the int has natural sqrt 1, otherwise -1
  */
 
-int _findrt(int x, int y)
+int _findrt(int y, int x)
 {
 	if ((x * x) == y)
 		return (x);
