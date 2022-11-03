@@ -13,8 +13,9 @@ int _findrt(int x, int y)
 {
 	if ((x * x) == y)
 		return (x);
-	if (x == y)
+	if (x == y / 2)
 		return (-1);
+
 	return (_findrt(y, x + 1));
 }
 
