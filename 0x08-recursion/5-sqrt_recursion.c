@@ -29,5 +29,7 @@ int _findrt(int x, int y)
 
 int _sqrt_recursion(int n)
 {
+	int y = 0;
+
 	return (_findrt(n, y));
 }
