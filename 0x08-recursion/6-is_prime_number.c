@@ -5,6 +5,8 @@
  *
  * @n: int to check
  * @division: int divider
+ *
+ * Return: if number is divisible 0, otgerwise -1
  */
 
 int div_check(int n, int division)
@@ -29,12 +31,12 @@ int div_check(int n, int division)
 
 int is_prime_number(int n)
 {
-	int division = 0;
+	int division = 2;
 
 	if (n <= 1)
 		return (0);
 
-	if (n >=2 && n <= 3)
+	if (n >= 2 && n <= 3)
 		return (1);
 
 	return (div_check(n, division));
