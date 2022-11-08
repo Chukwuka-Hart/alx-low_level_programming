@@ -14,9 +14,9 @@
 int main(int argc, char *argv[])
 {
 	int x;
-	int sum =1;
+	int sum = 1;
 
-	if (argc > 1)
+	if (argc > 2)
 	{
 		for (x = 1; x < argc; x++)
 		{
