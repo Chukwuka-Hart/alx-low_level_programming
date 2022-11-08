@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "main.h"
+
+/**
+ * main - adds positive numbers
+ *
+ * @argc: arg count
+ * @argv: arg vector
+ *
+ * Return: 0 if all postive number, 1 or error if no number
+ */
+
+int main(int argc, char *argv[])
+{
+	int x;
+	int sum = 0;
+	char *symbols;
+	
+
+	if (argc > 1)
+	{
+		for (x = 1; x < argc; x++)
+		{
+			sum += atoi(argv[x]);
+		}
+		printf("%d\n", sum);
+	}
+
+	symbols = "!@#$%^&*()_-[]{}~'.,";
+
+	if (symbols)
+	{
+		printf("Error\n");
+	}
+
+	else 
+	{
+		printf("0\n");
+	}
+	
+	return (0);
+}
