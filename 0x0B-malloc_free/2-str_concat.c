@@ -8,7 +8,7 @@
  * @s2: str to concat to s1
  *
  * Return: NULL on failure
- * 	otherwise points to a new allocated space in memory
+ *	otherwise points to a new allocated space in memory
  */
 
 char *str_concat(char *s1, char *s2)
@@ -24,7 +24,7 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = "";
 
-	for (x = 0; s1[x] && s2[x]; x++)
+	for (x = 0; s1[x] || s2[x]; x++)
 	{
 		len++;
 	}
