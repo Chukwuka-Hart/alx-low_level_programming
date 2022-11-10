@@ -7,7 +7,7 @@
  * @width: width of 2D array
  * @height: height of 2D array
  *
- * Reurn: NULL on fail or 0 or negaive
+ * Return: NULL on fail or 0 or negaive
  *	otherwise - a pointer to 2D array
  */
 
