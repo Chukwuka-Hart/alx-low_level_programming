@@ -6,6 +6,7 @@
  *
  * @s1: first str
  * @s2: second str
+ * @n: index
  *
  * Return: 0
  */
