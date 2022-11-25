@@ -4,6 +4,22 @@
 #include "lists.h"
 
 /**
+ * _strlen - returns length of str
+ * @s: string
+ * Return: string length
+ */
+
+int _strlen(const char *s)
+{
+	int i;
+
+	for (i = 0; s[i]; i++)
+		;
+	return (i);
+}
+
+
+/**
  * add_node - adds new node at the beginning of a list
  * @head: original link list
  * @str: str to add to the node
@@ -32,19 +48,4 @@ list_t *add_node(list_t **head, const char *str)
 	}
 
 	return (0);
-}
-
-/**
- * _strlen - returns length of str
- * @s: string
- * Return: string length
- */
-
-int _strlen(const char *s)
-{
-	int i;
-
-	for (i = 0; s[i]; i++)
-		;
-	return (i);
 }
