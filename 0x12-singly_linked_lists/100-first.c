@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+/* constructors */
 void _construct(void) __attribute__ ((constructor));
 
 /**
- * construct - prints a message
+ * _construct - prints a message
  *
  * Return: nothing
  */
