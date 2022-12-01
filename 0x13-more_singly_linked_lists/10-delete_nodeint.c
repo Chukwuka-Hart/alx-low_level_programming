@@ -7,7 +7,7 @@
  * @head: head of linked list
  * @index: index of node deleted
  *
- * Returns: 1 success, 0 failed
+ * Return: 1 success, 0 failed
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
