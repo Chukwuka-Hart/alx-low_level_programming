@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  * sum_listint - returns the sum of all data of list
