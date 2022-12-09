@@ -21,6 +21,14 @@ int main(int argc, char **argv)
 	exit(0);
 }
 
+/**
+ * copy_file - ...
+ * @src: ...
+ * @dest: ...
+ *
+ * Return: ...
+ */
+
 void copy_file(const char *src, const char *dest)
 {
 	int fds, fdt, r;
