@@ -17,11 +17,11 @@ int main(int argc, char **argv)
 		exit(97);
 	}
 
-	cpy_file(argv[1], argv[2]);
+	copy_file(argv[1], argv[2]);
 	exit(0);
 }
 
-void cpy_file(const char *src, const char *dest)
+void copy_file(const char *src, const char *dest)
 {
 	int fds, fdt, r;
 	char buffer[1024];
@@ -29,7 +29,7 @@ void cpy_file(const char *src, const char *dest)
 	fds = open(src, O_RDONLY);
 	if (!src || fds == -1)
 	{
-		dprint(STDERR_FILENO, "Error: Can't read from file %s\n", src);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", src);
 		exit(98);
 	}
 
@@ -45,19 +45,19 @@ void cpy_file(const char *src, const char *dest)
 
 	if (r == -1)
 	{
-		dprint(STDERR_FILENO, "Error: Can't read from file %s\n", src);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", src);
 		exit(98);
 	}
 
 	if (close(fds) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n" fds);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fds);
 		exit(100);
 	}
 
 	if (close(fdt) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n" fdt);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdt);
 		exit(100);
 	}
 }
